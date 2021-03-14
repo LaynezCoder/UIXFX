@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-mar-2021, 10:26:04
+    Author     : LaynezCoder
+*/
+
+@font-face {
+    src: url("Helvetica.ttf");
+}
+
+@font-face {
+    src: url("HelveticaRounded-Bold.otf");
+}
+
+* {
+    -primary: #4597ff;
+    -secondary: #f9f9f9;
+    -fx-font-family: "Helvetica";
+    -fx-font-smoothing-type: gray;
+}
+
+.root {
+    -fx-background-color: #ffffff;  
+    -fx-background-radius: 18 18 18 18;
+}
+
+.title {
+    -fx-font-family: "Helvetica Rounded";
+    -fx-font-size: 35;
+}
+
+.sub-title {
+    -fx-font-size: 14;
+}
+
+.text-field {
+    -fx-background-color: -secondary;
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+    -fx-font-size: 14;
+    -fx-highlight-fill: -primary;
+}
+
+.text-field:focused {
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, -secondary, 0, 0, 2, 2);
+}
+
+.button {
+    -fx-background-radius: 10;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18;
+    -fx-background-color: -primary;
+}
+
+.hyperlink {
+    -fx-cursor: hand;
+    -fx-font-size: 14;
+    -fx-text-fill: -primary;
+}
+
+.check-box {
+    -fx-text-fill: #B7B7B7;
+    -fx-font-size: 14;
+}
+
+.check-box .box {
+    -fx-background-color: -secondary;
+}
+
+.check-box .mark {
+    -fx-shape: "M393.401,124.425L179.603,338.208c-15.832,15.835-41.514,15.835-57.361,0L11.878,227.836   c-15.838-15.835-15.838-41.52,0-57.358c15.841-15.841,41.521-15.841,57.355-0.006l81.698,81.699L336.037,67.064   c15.841-15.841,41.523-15.829,57.358,0C409.23,82.902,409.23,108.578,393.401,124.425z";
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: -primary;
+}
