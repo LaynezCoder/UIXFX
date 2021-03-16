@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-mar-2021, 11:29:15
+    Author     : LaynezCoder
+*/
+
+@font-face {
+    src: url("Montserrat-Medium.ttf");
+}
+
+@font-face {
+    src: url("Montserrat-Bold.ttf");
+}
+
+* {
+    -primary: #030BDC;
+    -secondary: #5C5C5C;
+    -fx-font-smoothing-type: gray;
+    -fx-font-family: "Montserrat Bold";
+}
+
+.root {
+    -fx-background-color: #ffffff;
+}
+
+.title {
+    -fx-font-size: 35; 
+}
+
+.sub-title {
+    -fx-font-size: 12;
+    -fx-fill: -secondary;
+}
+
+.button {
+    -fx-background-color: -primary;
+    -fx-font-size: 16; 
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 18;
+}
+
+.text-field {
+    -fx-font-family: "Montserrat Medium";
+    -fx-highlight-fill: -secondary;
+    -fx-background-color: #ffffff;
+    -fx-font-size: 14;
+}
+
+.check-box {
+    -fx-text-fill: -secondary;
+    -fx-font-size: 14;
+}
+
+.check-box .box {
+    -fx-effect: dropshadow(two-pass-box, #edf0ff, 10, 0, 2, 2);
+    -fx-background-color: #ffffff;
+}
+
+.check-box .mark {
+    -fx-scale-x: 0.8;
+    -fx-scale-y: 0.8;
+    -fx-shape: "M393.401,124.425L179.603,338.208c-15.832,15.835-41.514,15.835-57.361,0L11.878,227.836   c-15.838-15.835-15.838-41.52,0-57.358c15.841-15.841,41.521-15.841,57.355-0.006l81.698,81.699L336.037,67.064   c15.841-15.841,41.523-15.829,57.358,0C409.23,82.902,409.23,108.578,393.401,124.425z";
+}
+
+.check-box:selected .box {
+    -fx-background-color: #ffffff;
+}
+
+.hyperlink {
+    -fx-cursor: hand;
+    -fx-font-size: 14;
+    -fx-text-fill: -secondary;
+    -fx-border-color: transparent;
+}
+
+.glyph {
+    -fx-font-family: "FontAwesome"; 
+    -fx-fill: -secondary;
+}
+
+
