@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-mar-2021, 17:39:24
+    Author     : Sammy Guergachi <sguergachi at gmail.com>
+*/
+
+@font-face {
+    src: url("Montserrat-SemiBold.ttf");
+}
+
+* {
+    -primary: #353639;
+    -secondary: #2FBD5A;
+    -fill: #ADADAD;
+    -fx-font-family: "Montserrat SemiBold";
+    -fx-font-smoothing-type: gray;
+}
+
+.root {
+    -fx-background-color: -primary;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20;
+    -fx-text-fill: -fill;
+    -fx-font-size: 16;
+    -fx-highlight-fill: -fill;
+}
+
+.button {
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 20;
+    -fx-background-color: -secondary;
+}
+
+.hyperlink {
+    -fx-cursor: hand;
+    -fx-font-size: 14;
+    -fx-text-fill: -fill;
+    -fx-border-color: transparent;
+}
+
+.check-box {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12;
+}
+
+.check-box .box {
+    -fx-background-color: -fill;
+}
+
+.check-box .mark {
+    -fx-shape: "M393.401,124.425L179.603,338.208c-15.832,15.835-41.514,15.835-57.361,0L11.878,227.836   c-15.838-15.835-15.838-41.52,0-57.358c15.841-15.841,41.521-15.841,57.355-0.006l81.698,81.699L336.037,67.064   c15.841-15.841,41.523-15.829,57.358,0C409.23,82.902,409.23,108.578,393.401,124.425z";
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #009BFF;
+}
+
+.tab {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: -primary;
+    -fx-border-color: -primary;
+    -fx-border-width: 0px 0px 3px 0px;  
+}
+
+.tab:selected {
+    -fx-border-color: -secondary;
+    -fx-border-width: 0px 0px 2.5px 0px;
+}
+
+.tab-label {
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+}
+
+.tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-down-button {
+    -fx-padding: 0;
+}
+
+.tab-down-button .arrow {
+    -fx-padding: 0;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 0 0 0 140;
+}
+
+.text-alredy {
+    -fx-font-size: 14;
+    -fx-fill: -fill;
+}
