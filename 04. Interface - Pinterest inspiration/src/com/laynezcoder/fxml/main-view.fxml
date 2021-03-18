@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" stylesheets="@../../../resources/com/laynezcoder/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.laynezcoder.controllers.MainController">
+   <children>
+      <HBox alignment="CENTER" layoutX="140.0" layoutY="217.0" prefWidth="708.0" AnchorPane.bottomAnchor="470.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="152.0" AnchorPane.topAnchor="217.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="113.0" prefWidth="707.0" styleClass="container">
+               <effect>
+                  <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+                     <input>
+                        <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#737989" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Neumorphism Style" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="45.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="149.0" layoutY="369.0" prefHeight="100.0" prefWidth="700.0" spacing="80.0" AnchorPane.bottomAnchor="331.0" AnchorPane.leftAnchor="149.0" AnchorPane.rightAnchor="151.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Button" HBox.hgrow="ALWAYS">
+               <graphic>
+                  <MaterialDesignIconView glyphName="SETTINGS" size="60" />
+               </graphic>
+               <effect>
+                  <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+                     <input>
+                        <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Button" HBox.hgrow="ALWAYS">
+               <graphic>
+                  <MaterialDesignIconView glyphName="GOOGLE_DRIVE" size="60" />
+               </graphic>
+               <effect>
+                  <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+                     <input>
+                        <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Button" HBox.hgrow="ALWAYS">
+               <graphic>
+                  <MaterialDesignIconView size="60" />
+               </graphic>
+               <effect>
+                  <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+                     <input>
+                        <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Button">
+               <graphic>
+                  <MaterialDesignIconView glyphName="SETTINGS" size="60" />
+               </graphic>
+               <effect>
+                  <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+                     <input>
+                        <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <Circle fill="DODGERBLUE" layoutX="114.0" layoutY="686.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="140.0" layoutY="615.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="98.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="718.0" layoutY="733.0" radius="36.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.rightAnchor="246.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="993.0" layoutY="578.0" radius="119.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.rightAnchor="-112.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="92.0" layoutY="154.0" radius="46.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.leftAnchor="46.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="51.0" layoutY="51.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.leftAnchor="24.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="820.0" layoutY="-15.0" radius="141.0" stroke="BLACK" strokeType="INSIDE" styleClass="circle" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="-156.0">
+         <effect>
+            <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+               <input>
+                  <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Circle>
+      <HBox alignment="CENTER" layoutX="445.0" layoutY="508.0" prefHeight="100.0" prefWidth="120.0" spacing="80.0" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="445.0" AnchorPane.rightAnchor="435.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onMouseClicked="#fullscreen" prefHeight="100.0" prefWidth="120.0" text="Button" HBox.hgrow="ALWAYS">
+               <graphic>
+                  <MaterialDesignIconView glyphName="FULLSCREEN" size="60" />
+               </graphic>
+               <effect>
+                  <DropShadow color="#bcc5da" height="80.0" offsetX="10.0" offsetY="10.0" radius="39.5" width="80.0">
+                     <input>
+                        <DropShadow color="WHITE" height="180.0" offsetX="-10.0" offsetY="-10.0" radius="89.5" width="180.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

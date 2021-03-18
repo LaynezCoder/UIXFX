@@ -1,0 +1,43 @@
+/* 
+    Created on : 17-mar-2021, 11:45:14
+    Author     : LaynezCoder
+*/
+@font-face {
+    src: url("../../../resources/com/laynezcoder/fonts/Montserrat-SemiBold.ttf");
+}
+
+* {
+    -primary: #E0E4EB;
+    -secondary: #DFE2E6;
+    -fill: #737989;
+    -fx-font-smoothing-type: gray;
+}
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, -primary, -secondary);
+}
+
+.container {
+    -fx-background-color: linear-gradient(to bottom, -primary, -secondary);
+    -fx-background-radius: 15;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, -primary, -secondary);
+    -fx-background-radius: 15;
+}
+
+.circle {
+    -fx-fill: linear-gradient(to bottom, -primary, -secondary);
+    -fx-stroke: transparent;
+}
+
+.glyph-icon { 
+    -fx-fill: -fill;
+}
+
+.text {
+    -fx-font-family: "Montserrat SemiBold";
+}
+
+
