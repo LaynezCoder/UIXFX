@@ -1,0 +1,77 @@
+/* 
+    Created on : 18-mar-2021, 20:32:20
+    Author     : LaynezCoder
+*/
+
+@font-face {
+    src: url("../../../resources/com/laynezcoder/fonts/Montserrat-SemiBold.ttf");
+}
+
+* {
+    -secondary: #858585;
+    -fill: #A2A2A2;
+    -fx-font-smoothing-type: gray;
+    -fx-font-family: "Montserrat SemiBold";
+}
+
+.root {
+    -fx-background-color: #f5f5f5;
+}
+
+.line {
+    -fx-background-color: linear-gradient(to left, #FB8817, #FF4B01, #C12127, #E02AFF);
+}
+
+.title {
+    -fx-font-size: 20;
+    -fx-fill: -fill;
+}
+
+.sub-title {
+    -fx-font-size: 14;
+    -fx-fill: -fill;
+}
+
+.box {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(two-pass-box, #BFBFBF, 10, 0, 2, 2);
+}
+
+.background-bear {
+   -fx-background-color:  #f7f7f7;
+}
+
+.blind {
+    -fx-background-color:  #333333;
+}
+
+.blind .margin {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.blind .handle {
+    -fx-background-color: #ccc;
+}
+
+.button {
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #00bd3c;
+    -fx-background-radius: 5;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: -fill;
+    -fx-text-fill: -fill;
+    -fx-font-size: 14;
+    -fx-highlight-fill: -fill;
+}
+
+.hyperlink {
+    -fx-cursor: hand;
+    -fx-font-size: 14;
+    -fx-text-fill: -secondary;
+    -fx-border-color: transparent;
+}
